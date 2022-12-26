@@ -25,6 +25,7 @@ while run:
             if event.key == pg.K_LEFT:
                 if number_points != 0:
                     number_points -= 100
+            pg.image.save(screen,"screenshot.png")
     # sets caption to the number of points
     pg.display.set_caption(f"points: {number_points}")
     # clears screen
